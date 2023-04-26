@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Glossary Example</title>
+    <style>
+      .keyword {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+      .tooltip {
+        position: absolute;
+        z-index: 1;
+        background-color: #555;
+        color: #fff;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Glossary Example</h1>
+    <p>
+      This is an example text containing the keyword <span class="keyword" data-explanation="The International Business Machines Corporation">IBM</span>.
+    </p>
+    <p>
+      Another example text containing the keyword <span class="keyword" data-explanation="Hypertext Markup Language">HTML</span>.
+    </p>
+    <ul>
+      <li>
+        List item containing the keyword <span class="keyword" data-explanation="Cascading Style Sheets">CSS</span>.
+      </li>
+    </ul>
+    <table>
+      <thead>
+        <tr>
+          <th>Keyword</th>
+          <th>Explanation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="keyword" data-explanation="A programming language for the web">JavaScript</span></td>
+          <td>JavaScript is a programming language that is commonly used to create interactive effects within web browsers.</td>
+        </tr>
+      </tbody>
+    </table>
+    <script src="index.js"></script>
+  </body>
+</html>

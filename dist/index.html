@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Usetiful Glossary Example</title>
+    <style>
+      .usetiful_keyword {
+        text-decoration: underline!important;
+        cursor: pointer;
+      }
+      .usetiful_tooltip {
+        position: absolute;
+        z-index: 100;
+        background-color: #555;
+        color: #fff;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 12px;
+		display:none;
+      }
+	  .usetiful_float_left{
+	  float:left;
+	  }
+	  .usetiful_keyword_container
+	  {
+	  border:1px solid #ccc;
+	  padding:5px;
+	  border-radius:5px;
+	  }
+    </style>
+  </head>
+  <body>
+    <h1>This is an assessment for Usetiful (a Glossary Example)</h1>
+	<div class="usetiful_keyword_container">
+		<h2>Keywords List:</h2>
+	 <ul id="keywords-list"></ul>
+    <form>
+	<div class="usetiful_float_left"><label for="keyword-input">Keyword:</label><input type="text" id="keyword-input"><br></div>
+      <div class="usetiful_float_left"> <label for="explanation-input">Explanation:</label><input type="text" id="explanation-input"><br></div>
+     
+      <button type="button" id="add-keyword-button">Add Keyword</button>
+    </form>
+	</div>
+	
+
+    <p>
+      We designed Usetiful to be simple to use, but offer all the features for a great digital adoption experience at an affordable price.
+    </p>
+    <p>
+      Usetiful service runs on Hetzner, with services hosted in Germany, EU.
+
+Usetiful stores and processes information of our clients (customers purchasing Digital Adoption Platform for their digital products) and their end-users (users of digital products provided by clients). 
+    </p>
+	<p>
+      Product Overview.
+    </p>
+    <ul>
+      <li>
+        Onboard your customers in an easy and fun way.
+      </li>
+	  <li>
+        Complex onboarding made simple.
+      </li>
+	  <li>
+        Helpful tooltips anywhere needed.
+      </li>
+	  <li>
+        24/7 support agent for your customers.
+      </li>
+    </ul>
+    <table border=1>
+      <thead>
+        <tr>
+          <th>Keyword</th>
+          <th>Explanation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>JavaScript</td>
+          <td>JavaScript(JS) is a programming language that is commonly used to create interactive effects within web browsers. This keyword exists in a <i>table</i> tag</td>
+        </tr>
+      </tbody>
+	  
+    </table>
+	<input type="text" id="DynamicContent" />
+	<input type="button" id="AddContent" value="Add Content Dynamically"></input>
+    <script src="index.js"></script>
+  </body>
+</html>
